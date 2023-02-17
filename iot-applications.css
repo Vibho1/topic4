@@ -1,0 +1,151 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-color: rgb(235, 229, 270);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    background-image: linear-gradient(black, black 50%);
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.6em 0em;
+}
+
+#vibho{
+    margin-left: 1400px;
+    width: 100px;
+    margin-top: 0px;
+}
+
+#Credentials{
+    margin-left: 1340px;
+    margin-top: 200px;
+    text-decoration-line: underline;
+}
+
+#BasicInfo{
+    margin-top: 0px;
+    text-align: center;
+    color: black;
+}
+
+h1{
+    color: orange;
+    text-decoration: none;
+}
+
+header a{
+    color: orange;
+    text-decoration: none;
+}
+
+#brand{
+    font-size: 230%;
+    align-self: center;
+    font-weight: bold;
+}
+
+#Head1{
+    margin-top: 50px;
+    margin-left: 600px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration-line: underline;
+    border-radius: 25px;
+    background: wheat;
+    padding: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+#Head2{
+    margin-top: 75px;
+    margin-left: 570px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration-line: underline;
+    border-radius: 25px;
+    background: wheat;
+    padding: 20px;
+    width: 370px;
+    height: 40px;
+}
+
+#Head3{
+    margin-top: 75px;
+    margin-left: 560px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration-line: underline;
+    border-radius: 25px;
+    background: wheat;
+    padding: 20px;
+    width: 400px;
+    height: 40px;
+
+}
+
+#Head4{
+    margin-top: 75px;
+    margin-left: 590px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration-line: underline;
+    border-radius: 25px;
+    background: wheat;
+    padding: 20px;
+    width: 330px;
+    height: 40px;
+}
+
+#Sub1{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+#Sum1{
+    margin-left: 30px;
+}
+
+#Sum2{
+    margin-left: 30px;
+}
+
+#Sum3{
+    margin-left: 30px;
+}
+
+#Sub1{
+    margin-left: 30px;
+}
+
+hr{
+    width: 1517px;
+    height: 3px;
+    background-color: black;
+    margin-top: 100px;
+}
+
+#Info{
+    margin-left: 1300px;
+    margin-top: 0px;
+}
+
+#skills{
+    list-style-type: circle;
+    font-weight: bold;
+}
+
+ol{
+    list-style-type:upper-roman;
+
+}

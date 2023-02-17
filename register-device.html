@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="A web page about IoT Applications" />
+  <meta name="author" content="Vibho" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link a href="rd.css" rel="stylesheet">
+
+  <title>IoT Data</title>
+</head>
+
+
+<body>
+<section>
+  <h1>Register New Device</h1>
+  <div class="container.fluid">
+    <div id="navbar"></div>
+    <marquee behaviour="scroll" direction="left" scrollamount="15" style="color:blue; font-size:26px"> Enter the user
+      name and device to get your data stored in table!</marquee>
+    <form class="was-validated">
+
+      <div class="form-group">
+        <label for="user">User</label>
+        <input type="text" class="form-control" id="user" placeholder="Enter username(Minimum 8 characters)" name="uname" required />
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+        <button id ="min8" class="btn btn-dark"  onclick disabled="change_text()">Please enter minimum 8 characters</button>
+
+      </div>
+
+      <div class="form-group">
+        <label for="name">Device Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter device name(Minimum 3 characters)" name="pswd" required />
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+        <button id ="min3" class="btn btn-dark"  onclick disabled="change_text()">Please enter minimum 3 characters</button>
+
+      </div>
+
+      <!-- <div class="form-group form-check" id="check">
+        <input class="form-check-input" value="yes" id="accept" type="checkbox" name="remember" required> I agree to give my details.
+          <label for="accept" class="form-check-label"> Accept </label>
+          <div class="valid-feedback">Valid.</div>  
+          <div class="invalid-feedback">Check this checkbox to continue.</div>
+      </div> -->
+
+      <button class="btn btn-success" id="add-device">Save</button>
+    </section>
+      <footer>
+        <p>Contact for any Queries</p>
+        <p><a href="mailto:vibhos.vs@gmail.com">vibhos.vs@gmail.com</a></p>
+      </footer>
+      
+
+</body>
+<script src="app.js"></script>
+
+</div>
+
+</html>

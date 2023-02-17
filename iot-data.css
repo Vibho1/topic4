@@ -1,0 +1,17 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+hr{
+    width: 100%;
+    height: 5px;
+    background-color:black;
+    margin-bottom: 60px;
+}
+
+body{
+    background-color: gray;
+}

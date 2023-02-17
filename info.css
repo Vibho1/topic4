@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(235, 229, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    background-image: linear-gradient(black, black 50%);
+    border-bottom: 1px solid black;
+    display: flex;
+    padding: 0.6em 0em;
+}
+
+h1{
+    color: orange;
+    text-decoration: none;
+    margin-left: 550px;
+}
+
+header a{
+    color: orange;
+    text-decoration: none;
+}
+
+#vibho{
+    width: 100px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+#desc{
+    margin-left: 10px;
+}
+
+h3{
+    text-align: center;
+}
+
+#infoo{
+    margin-left: 10px;
+}
+
+#infooo{
+    margin-left: 10px;
+}
